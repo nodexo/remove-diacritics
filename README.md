@@ -19,8 +19,12 @@ Usage
 const removeDiacritics = require('remove-diacritics')
 
 let str = 'Der Bär frisst.'
+
+console.log(removeDiacritics(str))
+// Der Bar frisst.
+
 console.log(removeDiacritics(str, 'de_DE'))
-// Der Bär frisst.
+// Der Baer frisst.
 ```
 
 
