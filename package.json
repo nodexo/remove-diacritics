@@ -1,0 +1,29 @@
+{
+  "name": "remove-diacritics",
+  "version": "0.1.0",
+  "description": "Remove diacritics/accents from a string.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js && standard index.js --fix",
+    "test": "standard index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodexo/remove-diacritics"
+  },
+  "keywords": [
+    "accents",
+    "diacritics",
+    "remove"
+  ],
+  "author": "Michael Kortstiege",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodexo/remove-diacritics/issues"
+  },
+  "homepage": "https://github.com/nodexo/remove-diacritics#readme",
+  "devDependencies": {
+    "standard": "^8.5.0",
+    "tap": "^8.0.1"
+  }
+}
